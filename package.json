@@ -1,0 +1,19 @@
+{
+  "name": "talksy",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "services/*",
+    "shared/*"
+  ],
+  "scripts": {
+    "dev": "concurrently \"npm run dev --workspaces --if-present\"",
+    "build": "npm run build --workspaces --if-present",
+    "install:all": "npm install"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.0",
+    "typescript": "^5.1.6"
+  }
+}

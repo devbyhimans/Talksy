@@ -1,0 +1,14 @@
+{
+  "name": "@talksy/auth",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "type": "module",
+  "dependencies": {
+    "@types/amqplib": "^0.10.8",
+    "@types/jsonwebtoken": "^9.0.10",
+    "amqplib": "^2.0.1",
+    "jsonwebtoken": "^9.0.3",
+    "redis": "^6.0.0",
+    "zod": "^4.4.3"
+  }
+}
